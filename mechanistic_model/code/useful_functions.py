@@ -1,6 +1,8 @@
 # AUTHOR: GASTON LUCA CASTILLO MORO
 # DATE: DECEMBER 23, 2023
 
+# In this script, we define the functions used to generate the data
+
 import numpy as np
 from scipy.integrate import solve_ivp
 from numpy import random
