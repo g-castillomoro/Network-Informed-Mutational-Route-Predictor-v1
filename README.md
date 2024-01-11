@@ -16,7 +16,7 @@ This repository includes:
 Citation
 --------
 
-Please, cite the paper (link)
+Please, cite the paper (missing link)
 
 Reference
 --------
