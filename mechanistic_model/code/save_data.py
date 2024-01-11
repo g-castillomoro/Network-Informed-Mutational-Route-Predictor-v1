@@ -1,6 +1,8 @@
 # AUTHOR: GASTON LUCA CASTILLO MORO
 # DATE: DECEMBER 23, 2023
 
+# This script saves the generated data with canonical names
+
 import pickle
 
 def save_sampling_data(cond_probability_biofilm, allowed_mutations, mutant_final_dgc_concentrations, y_baseline, pathway_name):
