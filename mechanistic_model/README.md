@@ -12,7 +12,6 @@ For users who want to apply the model to a specific pathway of interest have to 
 
 Necessary attributes:
 .. code-block:: linux
-
          class castillom_wsp:
   def __init__(self):
     self.name = 'wsp'
