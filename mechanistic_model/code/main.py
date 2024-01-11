@@ -1,6 +1,8 @@
 # AUTHOR: GASTON LUCA CASTILLO MORO
 # DATE: DECEMBER 23, 2023
 
+# In this script, we generate the actual data and save it
+
 import useful_functions as uf
 import save_data as sd
 
