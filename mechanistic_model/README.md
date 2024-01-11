@@ -10,8 +10,7 @@ Usage
 
 For users who want to apply the model to a specific pathway of interest have to create a new class with the same format as `castillom_wsp`, `castillom_sia`, etc. The necessary components are listed below. 
 
-Necessary attributes:
-~~~~~
+**Necessary attributes:**
 
 - self.name
   - Name of the pathway
@@ -25,8 +24,7 @@ Necessary attributes:
   - As explained in code, this is a (num_rxns x num_rxns) matrix, such that g_ij = 1 iff reaction i and reaction j cannot change simultaneously because they would involve mutations in two separate genetic components. Otherwise g_ij = 0
 
 
-Necessary method:
-~~~~~
+**Necessary method:**
 
 - odes(self, t, y, reaction_rates, S, C_m):
   - a method that defines the ODE & that is compatible with the ODE solver that is being used (in this case, scipy.solve_ivp)
