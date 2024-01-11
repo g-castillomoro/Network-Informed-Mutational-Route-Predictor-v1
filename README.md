@@ -1,8 +1,8 @@
 # Mechanistic Mutational Route Prediction v1
 
-This is a repository including work done by Gaston Luca Castillo Moro as part of Martino et. al. (2024). Its aim is to provide a readily-accesible tool for researchers, even for those who may not be well-versed in coding, to apply the model easily to their objects of study using basic Python. 
+This is a repository of the code used for Martino et. al. (2024), work done by Gaston Luca Castillo Moro. Its aim is to provide a readily-accesible tool for researchers, even for those who may not be well-versed in coding, to apply the mechanistic model easily to their objects of study with basic Python knowledge. This is done in the spirit of spreading and showcasing the potential of mechanistic models for investigations on genomic architecture and predictability of adaptation/evolution. 
 
-Further Usage
+Usage
 ------
 Please, refer to `README` on `mechanistic_model` for **detailed instructions** on how to apply the model on any new pathway of interest using Python
 
