@@ -18,6 +18,11 @@ Citation
 
 Please, cite the paper (link)
 
+Reference
+--------
+
+- Peter A Lind, Eric Libby, Jenny Herzog, Paul B Rainey (2019) Predicting mutational routes to new adaptive phenotypes eLife 8:e38822. https://doi.org/10.7554/eLife.38822.
+
 Contact
 --------
 
