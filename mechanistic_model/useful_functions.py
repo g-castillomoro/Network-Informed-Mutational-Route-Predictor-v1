@@ -212,7 +212,7 @@ class castillom_sia:
 
 # We know proceed with the bayesian sampling protocol
 
-def bayesian_sampling_protocol(total_runs = 10000, pathway):
+def bayesian_sampling_protocol(total_runs, pathway):
   run_number = 0
   y_baseline = np.zeros(total_runs)
   max_num_mutations = 3**(pathway.num_rxns) # we establish upper bound for number of possible mutations
