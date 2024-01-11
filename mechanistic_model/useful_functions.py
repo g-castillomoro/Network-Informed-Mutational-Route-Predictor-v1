@@ -6,15 +6,6 @@ from scipy.integrate import solve_ivp
 from numpy import random
 import pickle
 
-class gene:
-  def __init__(self, name, nucleo_seq):
-    self.nucleo_seq = erase_spaces(nucleo_seq)
-    self.g_length = len(self.nucleo_seq)
-    self.num_nucleo_seq = alpha_seq_to_num_seq(self.nucleo_seq, self.g_length)
-    self.aa_seq = get_amino_seq(self.num_nucleo_seq, self.g_length)
-    self.prot_length = len(self.aa_seq)
-    self.name = name
-
 # First, we define the classes for each pathway
 
 class castillom_wsp:
