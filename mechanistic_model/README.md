@@ -21,7 +21,7 @@ For users who want to apply the model to a specific pathway of interest have to 
 - self.num_reactants
   - Number of reactants/species/nodes in the reaction network
 - self.geem_matrix
-  - As explained in code, this is a (num_rxns x num_rxns) matrix, such that g_ij = 1 iff reaction i and reaction j cannot change simultaneously because they would involve mutations in two separate genetic components. Otherwise g_ij = 0
+  - As explained in code, this is a (num_rxns x num_rxns) matrix, such that g_ij = 1 iff reaction i and reaction j cannot change simultaneously because they would involve mutations in two separate genetic components. Otherwise g_ij = 0.
 
 
 **Necessary method:**
