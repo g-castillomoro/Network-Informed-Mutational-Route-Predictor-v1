@@ -8,4 +8,10 @@ Required Software
 Usage
 --------
 
-For users who want to apply the model to a specific pathway of interest have to create a new class with the same attributes as `castillom_wsp`, `castillom_sia`, etc.
+For users who want to apply the model to a specific pathway of interest have to create a new class with the same attributes as `castillom_wsp`, `castillom_sia`, etc. The necessary components are listed below. 
+
+Necessary attributes:
+.. code-block:: linux
+
+         hola
+
