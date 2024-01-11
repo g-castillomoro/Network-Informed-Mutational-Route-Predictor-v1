@@ -298,13 +298,11 @@ def check_combination(pathway, mutation_combinations):
           pass
   return True # the mutation is feasible under our criteria
 
-
 def base3_representation(number, num_rxns):
   n_base3 = np.zeros(num_rxns)
   for j in range(1, num_rxns + 1):
       number, n_base3[j-1] = divmod(number, 3)
   return n_base3[::-1] # this last step returns a reversed array
-
 
 def save_sampling_data(cond_probability_biofilm, allowed_mutations, mutant_final_dgc_concentrations, y_baseline, pathway_name):
   with open(str(pathway_name) + r"_cond_probability_biofilm.pkl", 'wb') as f:
