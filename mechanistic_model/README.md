@@ -27,5 +27,5 @@ For users who want to apply the model to a specific pathway of interest have to 
 **Necessary method:**
 
 - odes(self, t, y, reaction_rates, S, C_m):
-  - a method that defines the ODE & that is compatible with the ODE solver that is being used (in this case, scipy.solve_ivp)
+  - a method that defines the ODE & that is compatible with the ODE solver that is being used (in this case, scipy.solve_ivp). As it is dependetn on the ODE solver used, it is advised to refer to the corresponding documentation
 
