@@ -8,7 +8,7 @@ Software used
 Usage
 --------
 
-For users who want to apply the model to a specific pathway of interest have to create a new class with the same format as `castillom_wsp`, `castillom_sia`, etc. The necessary components are listed below. 
+For users who want to **apply the model to any pathway of interest** have to create a **new Python class** in the provided code, with the same format as `castillom_wsp`, `castillom_sia`, etc. The necessary components are listed below. 
 
 **Necessary attributes:**
 
