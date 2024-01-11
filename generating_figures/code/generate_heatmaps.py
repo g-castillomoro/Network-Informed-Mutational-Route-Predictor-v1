@@ -7,6 +7,7 @@ import matplotlib.colors as colors
 plt.rcParams['text.usetex'] = True # this allows the use of LaTeX for the labels. Further commands may be needed depending on Python environment and you should refer to the appropriate documentation if this is the case
 
 def heatmap_plotting_1v1_comparison(data, p_range, x_ticks, y_ticks, end_pd = 120, end_pe = 120, colormap = 'magma', dividend_name = 'WSP', divisor_name = 'YFI'):
+  # the data argument was the final probabilities that were calculated with the data-generating code
   X, Y = np.meshgrid(p_range[:end_pd], p_range[:end_pd])
 
   # log2 transform the data for better determination of patterns
