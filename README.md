@@ -1,4 +1,4 @@
-# Mechanistic Mutational Route Prediction v1
+# Network Informed Mutational Route Predictor (NIMRP) v1
 
 This is a **repository of the code created by Gaston Luca Castillo Moro**, as part of Martino et. al. (2024). Its aim is to provide a **readily-accesible tool** for researchers, even for those who may not be well-versed in coding, to apply the mechanistic model easily to their objects of study with **basic Python knowledge**. This is done in the spirit of spreading and **showcasing the potential of mechanistic models** for investigations on genomic architecture and predictability of adaptation/evolution. 
 
