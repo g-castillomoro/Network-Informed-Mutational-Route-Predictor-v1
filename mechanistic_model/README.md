@@ -12,12 +12,16 @@ For users who want to apply the model to a specific pathway of interest have to 
 
 Necessary attributes:
 
-- self.name:
-  - name of the pathway
-- self.index_dgc = index in the y-vector (in the ODE method) that corresponds to DGC (or any other enzyme of interest)
-- self.num_rxns = number of reactions
-- self.num_reactants = number of reactants/species/nodes in the reaction network
-- self.geem_matrix = as explained in code, this is a (num_rxns x num_rxns) matrix, such that g_ij = 1 iff reaction i and reaction j                                  # cannot change simultaneously because they would involve mutations in two separate genetic components. Otherwise                                 # g_ij = 0
+- self.name
+  - Name of the pathway
+- self.index_dgc
+  - index in the y-vector (in the ODE method) that corresponds to DGC (or any other enzyme of interest)
+- self.num_rxns
+  - number of reactions
+- self.num_reactants
+  - number of reactants/species/nodes in the reaction network
+- self.geem_matrix
+  - as explained in code, this is a (num_rxns x num_rxns) matrix, such that g_ij = 1 iff reaction i and reaction j cannot change simultaneously because they would involve mutations in two separate genetic components. Otherwise g_ij = 0
 `
 Necessary method 
             
