@@ -24,6 +24,7 @@ Necessary attributes:
 - self.geem_matrix
   - As explained in code, this is a (num_rxns x num_rxns) matrix, such that g_ij = 1 iff reaction i and reaction j cannot change simultaneously because they would involve mutations in two separate genetic components. Otherwise g_ij = 0
 
+
 Necessary method:
 ~~~~~
 
