@@ -1,3 +1,6 @@
+# AUTHOR: GASTON LUCA CASTILLO MORO
+# DATE: DECEMBER 23, 2023
+
 import useful_functions as uf
 import save_data as sd
 
