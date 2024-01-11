@@ -1,4 +1,4 @@
-Required Software
+Required software
 --------
 
 - Python v3.10.12
