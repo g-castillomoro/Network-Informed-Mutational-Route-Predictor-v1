@@ -1,6 +1,7 @@
 # Mechanistic Mutational Route Prediction v1
 This is a repository including work done by Gaston Luca Castillo Moro as part of Martino et. al. (2024). 
-# Usage
+Usage
+------
 Please, refer to `README` on `mechanistic_model` for **detailed instructions** on how to apply the model on any new pathway of interest
 # Contents
 This repository includes: 
