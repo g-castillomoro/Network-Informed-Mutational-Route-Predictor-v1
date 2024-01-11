@@ -7,4 +7,4 @@ Software used
 Notes
 ------
 
-This was the code used to generate Supplementary Figure 1 in Martino et. al. (2024). The png files of the figures are available in the `generated_figures` folder
+This was the code used to generate Supplementary Figure 1 in Martino et. al. (2024). The .jpg files of the figures are available in the `generated_figures` folder
