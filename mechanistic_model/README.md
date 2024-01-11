@@ -26,6 +26,7 @@ For users who want to apply the model to a specific pathway of interest have to 
 
 **Necessary method:**
 
-- odes(self, t, y, reaction_rates, S, C_m):
+- odes(self, t, y, reaction_rates, extra_args):
   - a method that defines the ODE & that is compatible with the ODE solver that is being used (in this case, scipy.solve_ivp). As it is dependent on the ODE solver used, it is advised to refer to the corresponding documentation for appropiate implementation (for scipy.solve_ivp: https://docs.scipy.org/doc/scipy/reference/generated/scipy.integrate.solve_ivp.html)
+  - extra_args encompasses quantities whose initial values (eg.: S or C_m) are important for the ODE system, but whose dynamics are not important for the problem and are thus not considered in the ODE system
 
