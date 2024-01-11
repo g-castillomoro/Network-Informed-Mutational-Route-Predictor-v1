@@ -21,7 +21,7 @@ Please, cite the paper (link)
 Contact
 --------
 
-- Gaston Luca Castillo Moro ([@feiranl](https://github.com/feiranl)), Universidad Nacional de Córdoba, Córdoba, Argentina (gaston.castillom22@gmail.com)
+- Gaston Luca Castillo Moro ([@g-castillomoro](https://github.com/g-castillomoro)), Universidad Nacional de Córdoba, Córdoba, Argentina (gaston.castillom22@gmail.com)
 - Andrea Smania, Universidad Nacional de Córdoba, Córdoba, Argentina (asmania@unc.edu.ar)
 
 Last update: January 11, 2024
